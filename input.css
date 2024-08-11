@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title {
+      @apply text-3xl font-bold text-gray-900 mb-4 border-b-2 border-yellow-400;
+}
+
+.text {
+      @apply text-lg font-normal text-gray-700 leading-relaxed;
+    }
+
+li > a::before {
+      content: "-";
+      @apply block font-bold;
+}  
+
+li > a {
+      @apply flex items-center gap-2  hover:font-bold;
+}
