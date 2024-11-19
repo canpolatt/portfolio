@@ -11,6 +11,10 @@
       @apply text-lg font-normal text-gray-700 leading-relaxed;
     }
 
+.text-small{
+      @apply text-sm font-normal text-gray-700 opacity-50 leading-relaxed;
+}     
+
 li > a::before {
       content: "-";
       @apply block font-bold;
@@ -19,3 +23,7 @@ li > a::before {
 li > a {
       @apply flex items-center gap-2  hover:font-bold;
 }
+
+/* .articles li > a{
+      @apply flex items-center gap-2  hover:font-normal;
+} */
